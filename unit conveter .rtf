@@ -1,0 +1,66 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red109\green109\blue109;\red32\green32\blue32;\red153\green168\blue186;
+\red117\green114\blue185;\red88\green118\blue71;\red191\green100\blue38;\red86\green132\blue173;}
+{\*\expandedcolortbl;;\csgenericrgb\c42745\c42745\c42745;\csgenericrgb\c12549\c12549\c12549;\csgenericrgb\c60000\c65882\c72941;
+\csgenericrgb\c45882\c44706\c72549;\csgenericrgb\c34510\c46275\c27843;\csgenericrgb\c74902\c39216\c14902;\csgenericrgb\c33725\c51765\c67843;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf2 \cb3 # def area_of_triangle(a, b):\
+#     c = int(a*b)*(1/2)\
+#     return c\
+#\
+#\
+# x = area_of_triangle(35, 78)\
+# print(x)\
+\
+# a = int(input(">base: "))\
+# b = int(input(">height:"))\
+# #\
+# def area(a, b):\
+#\
+#     if a and b is inch:\
+#         a1 = .00245*a\
+#         b1 = .00245*b\
+#         area_of_triangle = (a1 * b1) * (1 / 2)\
+#         return area_of_triangle\
+#\
+#     else:\
+#         area_of_triangle = (a * b) * (1 / 2)\
+#         return area_of_triangle\
+\
+\
+#\
+# area(50,56)\
+#\
+#\
+#\
+#\
+# print(area_of_triangle)\
+\cf4 unit = \cf5 input\cf4 (\cf6 "enter the unit:"\cf4 )\
+a = \cf5 float\cf4 (\cf5 input\cf4 (\cf6 "> breath of triangle :"\cf4 ))\
+b = \cf5 float\cf4 (\cf5 input\cf4 (\cf6 "> height of triangle :"\cf4 ))\
+\
+\cf7 try\cf4 :\
+    \cf7 if \cf4 unit == \cf6 "si"\cf4 :\
+        area_of_triangle = \cf5 float\cf4 (a * b) * (\cf8 1 \cf4 / \cf8 2\cf4 )\
+        \cf5 print\cf4 (\cf6 f"area of triangle is \cf7 \{\cf4 area_of_triangle\cf7 \}\cf6  meter square"\cf4 )\
+    \cf7 elif \cf4 unit == \cf6 "lbs"\cf4 :\
+        a1 = \cf8 .00245 \cf4 * a\
+        b1 = \cf8 .00245\cf4 *b\
+        area_of_triangle = \cf5 float\cf4 ((a1 * b1) * (\cf8 1 \cf4 / \cf8 2\cf4 ))\
+        \cf5 print\cf4 (\cf6 f"area of triangle is \cf7 \{\cf4 area_of_triangle\cf7 \}\cf6  meter square"\cf4 )\
+\
+    \cf7 else\cf4 :\
+        \cf5 print\cf4 (\cf6 "enter unit as  either lbs or si "\cf4 )\
+\
+\cf7 except \cf5 ValueError\cf4 :\
+    \cf5 print\cf4 (\cf6 'invalid entry, please enter numbers 0 to 9'\cf4 )\
+\
+\
+\
+\
+\
+\
+}
